@@ -17,4 +17,6 @@ Git
        http://git-scm.com/book/en/v2/Getting-Started-Getting-Help
        git remote add origin https://github.com/rahulsaddy/codeExamples.git
        git push -u origin master
+       git remote -v
+       git remote rm origin
        
