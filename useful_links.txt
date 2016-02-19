@@ -1,0 +1,20 @@
+Tutorials 
+Basic Python
+	http://interactivepython.org/courselib/static/pythonds/index.html
+        http://www-rohan.sdsu.edu/~gawron/python_for_ss/course_core/book_draft/anatomy/files.html
+
+
+Numpy : https://www.youtube.com/watch?v=1zmV8lZsHF4
+        https://github.com/enthought/Numpy-Tutorial-SciPyConf-2015
+
+Panda : https://www.youtube.com/watch?v=0CFFTJUZ2dc
+        https://github.com/jonathanrocher/pandas_tutorial
+
+scipy.org
+matplotlib.org
+
+Git
+       http://git-scm.com/book/en/v2/Getting-Started-Getting-Help
+       git remote add origin https://github.com/rahulsaddy/codeExamples.git
+       git push -u origin master
+       
