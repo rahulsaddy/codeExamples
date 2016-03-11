@@ -1,4 +1,4 @@
-import math
+	import math
 
 class Point:
 
@@ -55,3 +55,33 @@ from collections import Counter
 from urllib2 import  urlopen
 book_url = 'http://www.gutenberg.org/ebooks/1342.txt.utf-8' # Pride & Prejudice URL
 handle = urlopen(book_url)
+
+
+# Passing Multiple Parameters to a string
+template = "%s %s %s = %s"
+print template % (x, "+", y, x+y)
+print template % (x, "-", y, x-y)
+print template % (x, "*", y, x*y)
+print template % (x, "/", y, x/y)
+
+# Example of a 3D Chart
+from mpl_toolkits.mplot3d import axes3d
+import matplotlib.pyplot as plt
+from matplotlib import cm
+
+fig = plt.figure(figsize=(10,10))
+ax = fig.gca(projection='3d')
+X, Y, Z = axes3d.get_test_data(0.05)
+ax.plot_surface(X, Y, Z, rstride=4, cstride=4, alpha=0.3)
+cset = ax.contourf(X, Y, Z, zdir='z', offset=-100, cmap=cm.coolwarm)
+cset = ax.contourf(X, Y, Z, zdir='x', offset=-40, cmap=cm.coolwarm)
+cset = ax.contourf(X, Y, Z, zdir='y', offset=40, cmap=cm.coolwarm)
+
+ax.set_xlabel('X')
+ax.set_xlim(-40, 40)
+ax.set_ylabel('Y')
+ax.set_ylim(-40, 40)
+ax.set_zlabel('Z')
+ax.set_zlim(-100, 100)
+
+plt.show()
