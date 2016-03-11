@@ -1,17 +1,41 @@
-Tutorials 
+
+
 Basic Python
 	http://interactivepython.org/courselib/static/pythonds/index.html
         http://www-rohan.sdsu.edu/~gawron/python_for_ss/course_core/book_draft/anatomy/files.html
+        http://learnpythonthehardway.org/book/
 
 
-Numpy : https://www.youtube.com/watch?v=1zmV8lZsHF4
+Numpy   
+	https://www.youtube.com/watch?v=1zmV8lZsHF4
         https://github.com/enthought/Numpy-Tutorial-SciPyConf-2015
 
-Panda : https://www.youtube.com/watch?v=0CFFTJUZ2dc
+Panda 	
+	https://www.youtube.com/watch?v=0CFFTJUZ2dc
         https://github.com/jonathanrocher/pandas_tutorial
+	http://pandas.pydata.org/pandas-docs/stable/10min.html  # 10 minutes to Panda
+
+Matplotlib
+	http://matplotlib.org/gallery.html
+
+Flask
+	https://github.com/bev-a-tron/MyFlaskTutorial
+
+Roshan
+	https://www.youtube.com/channel/UC98x5I1LVPhtnUHDyujq7zg
+
+SVM Theory - IIT Explanation
+	https://www.youtube.com/watch?v=9_DJ4KvyYoo
+	https://www.youtube.com/watch?v=ffF8UnbheLk
+
+Self Variable explained - Python Tips
+	http://pythontips.com/2013/08/07/the-self-variable-in-python-explained/
+
 
 scipy.org
 matplotlib.org
+http://scikit-learn.org
+
 
 Git
        http://git-scm.com/book/en/v2/Getting-Started-Getting-Help
@@ -19,4 +43,27 @@ Git
        git push -u origin master
        git remote -v
        git remote rm origin
-       
+       https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone
+
+
+Data Sources
+	http://bigdata-madesimple.com/70-websites-to-get-large-data-repositories-for-free/
+	http://mldata.org/
+	www.quandl.com
+	http://developer.nytimes.com/docs/most_popular_api/  
+
+
+
+
+
+
+
+Connecting to the Digital Ocean
+Download the Public Key and Private Key files.
+Install the Chrome SSH extension
+In the "username@hostname or Free Form Text", type "vagrant@"
+To import the SSH Key, click the "Import..." button and select the 'dataincubator' file you just downloaded. 
+*Then, click again* and select the 'dataincubator.pub' file you just downloaded. For some odd reason, you need to select both. 
+At this point you should see the identity dropdown value switch from '[default]' to 'dataincubator'
+At this point you can click connect! If you're asked for a password, something has gone wrong, so please ask in the public channel on Slack.
+The next step is the Ipython Notebook setup. Follow the instructions at the link.
